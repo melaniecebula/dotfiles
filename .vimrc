@@ -21,9 +21,10 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'scrooloose/snipmate-snippets'
-Bundle 'garbas/vim-snipmate'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'ervandew/supertab'
+" Bundle 'Valloric/YouCompleteMe'
 
 filetype plugin indent on " required!
 
@@ -62,9 +63,9 @@ set ttyfast
 set updatetime=1000
 
 " Set tab options
-set shiftwidth=2
-set softtabstop=2
-set tabstop=2
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
 set expandtab
 
 " Automatically reload vimrc when it's saved
@@ -118,3 +119,4 @@ set timeoutlen=500
 set ttimeout
 set ttimeoutlen=10
 
+autocmd! BufNewFile,BufRead *.ejs setlocal ft=html
