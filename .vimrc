@@ -1,8 +1,6 @@
 " Melanie's Customized VIM! 
 
 " thanks to thanhhaimai for the help!
-" todo: Vundle and vim plugins, more advanced customization, tomorrow night
-" bright colorscheme
 "================================================================================
 " Vundle option:
 "================================================================================
