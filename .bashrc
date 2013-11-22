@@ -25,18 +25,6 @@ shopt -s histappend # append to (not overwrite) history file
 #if [ -f ~/.bash_aliases ]; then
  # . ~/.bash_aliases
 #fi
-alias c='clear'
-alias 61b='ssh cs61b-el@star.cs.berkeley.edu'
-alias g='git'
-alias mc='make check'
-alias ms='make style'
-alias ll='ls -la'
-alias ..='cd ..'
-alias ...='cd ../../../'
-alias ....='cd ../../../../'
-alias grep='grep --color=auto'
-alias h='history'
-alias v='f -e vim' # quick opening files with vim
 alias j='fasd_cd -d'
 export TIGCC="/Users/melaniecebula/gcc4ti"
 export PATH="$PATH:$TIGCC/bin"
