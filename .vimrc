@@ -24,6 +24,7 @@ Bundle 'scrooloose/snipmate-snippets'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'ervandew/supertab'
+Bundle 'altercation/vim-colors-solarized'
 " Bundle 'Valloric/YouCompleteMe'
 
 filetype plugin indent on " required!
@@ -42,8 +43,9 @@ set t_Co=256
 
 " If using a dark background within the editing area and syntax highlighting
 "  turn on this option as well
-"  set background=dark
-
+syntax enable
+set background=dark
+colorscheme solarized
 " Uncomment the following to have Vim jump to the last position when
 "  reopening a file
 "  if has ("autocmd")
