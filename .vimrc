@@ -25,7 +25,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'ervandew/supertab'
 Bundle 'altercation/vim-colors-solarized'
-" Bundle 'Valloric/YouCompleteMe'
+Bundle 'Valloric/YouCompleteMe'
 
 filetype plugin indent on " required!
 
